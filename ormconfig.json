@@ -1,0 +1,20 @@
+[
+    {
+        "name": "NEWS",
+        "type": "mysql",
+        "host": "ls-12d36fc3bdd65f2a11cdf23910a33767e186e18b.cnz9raiumfbl.us-east-1.rds.amazonaws.com",
+        "port": 3306,
+        "username": "squint_user_exractor02",
+        "password": "Squint2020#",
+        "database": "squintadmin",
+        "synchronize": false,
+        "logging": false,
+        "entities": [
+            "app/models/**/*.ts"
+        ],
+        "cli": {
+            "entitiesDir": "app/models"
+        },
+        "autoSchemaSync": true
+    }
+]
